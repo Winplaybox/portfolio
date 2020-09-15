@@ -2,6 +2,8 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "My work experience and education details are almost explained here.",
+  "author": "Sagar Mistry",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,14 +12,27 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Winplaybox/portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "portfolio",
+    "material"
+  ],
+  "bugs": {
+    "url": "https://github.com/Winplaybox/portfolio/issues"
+  },
   "homepage": "https://winplaybox.github.io/portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run portfolio:build",
-    "deploy": "gh-pages -d portfolio"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
