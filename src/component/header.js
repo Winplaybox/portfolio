@@ -10,9 +10,7 @@ class Header extends Component {
         <div className="mdl-layout--large-screen-only mdl-layout__header-row mobilenone">
     </div>
     <div className="mdl-layout--large-screen-only mdl-layout__header-row mobilenone" id="headi">
-        <a href="/" title="Sagar Mistry" rel="home">
-            <h3>Sagar Mistry</h3>
-        </a>
+        <Link to={{ pathname: "/" }} title="Sagar Mistry" rel="home"><h3>Sagar Mistry</h3></Link>
 		<div className="downloadimage">
 			<img src="https://lh3.googleusercontent.com/-2gKs8y2mQ3k/AAAAAAAAAAI/AAAAAAAAAgs/rSNK9GTVy80/s150/photo.jpg" className="circle responsive-img" alt='ownprofile'/>
             <a className="btn-floating btn-large waves-effect waves-light blue darken-4 modal-trigger tooltipped" data-position="bottom" data-delay="50" data-tooltip="Get my custom size passport image" href="#modal1"><i className="material-icons">file_download</i></a>
